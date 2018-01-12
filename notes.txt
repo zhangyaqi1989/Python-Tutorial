@@ -1,0 +1,21 @@
+WHY PYTHON?
+
+0. Hello World
+   script (.py) and command line
+
+1. Interactive mode REPL (read evaluate print loop)
+   work as a calculator
+   + - * / ** % // ++ -- += 
+   string "" '' + *
+   comment # """ """
+
+2. basic types
+   int, float, str, boolean
+   everything is an object
+   function is first class object
+
+2. import
+   import numpy as np
+   from matplotlib import pyplot as plt
+   from numpy import *
+
