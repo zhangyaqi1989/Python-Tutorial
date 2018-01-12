@@ -34,7 +34,7 @@ if __name__ == "__main__":
     plt.grid(True)
     plt.title('sin vs cos')
     plt.legend(loc="upper left")
-    plt.savefig("exercise_2.png", dpi=80)
+    plt.savefig("example_2.png", dpi=80)
 
     plt.show()
 
