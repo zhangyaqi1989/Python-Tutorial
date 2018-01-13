@@ -5,17 +5,21 @@ WHY PYTHON?
 
 1. Interactive mode REPL (read evaluate print loop)
    work as a calculator
-   + - * / ** % // ++ -- += 
+   + - * / ** % // ++ -- +=  abs()
    string "" '' + *
    comment # """ """
 
 2. basic types
    int, float, str, boolean
+   type conversion: int("1")
    everything is an object
    function is first class object
+   assignment: eg x = 1, id()
 
 2. import
    import numpy as np
    from matplotlib import pyplot as plt
    from numpy import *
+   import math
+   math.sin(), math.cos(), math.exp()
 
