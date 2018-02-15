@@ -6,13 +6,25 @@ University of Wisconsin-Madison
 import random
 
 class Point2D:
-    num = 0
-    def __init__(self, x, y):
+    num = 0 # static variable 
+    def __init__(self, x, y): # constructor
         self.x = x
         self.y = y
         Point2D.num += 1
 
-    def __str__(self):
+    def __str__(self): # special method toString()
+        """
+written by Yaqi Zhang (zhang623@wisc.edu)
+University of Wisconsin-Madison
+
+"""
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+if __name__ == "__main__":
+    print("Hello World")
+
         return "({0}, {1})".format(self.x, self.y)
 
 class Point3D(Point2D):
