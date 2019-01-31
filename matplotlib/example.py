@@ -8,14 +8,12 @@ if __name__ == "__main__":
     n = 7
     xs = [0, m, m, 0, 0]
     ys = [0, 0, n, n, 0]
-    plt.axis('equal')
+    ax = plt.axes()
+    ax.axis("equal")
+    plt.xlim([-1, m + 1])
+    plt.ylim([-1, n + 1])
     for i in range(4):
-        plt.xlim([0, m + 1])
-        plt.ylim([0, n + 1])
         x0, x1 = xs[i], xs[i+1]
         y0, y1 = ys[i], ys[i+1]
-        plt.plot([x0, x1], [y0, y1])
-        plt.pause(0.5)
-        plt.draw()
+        ax.plot([x0, x1], [y0, y1], 'b-')
     plt.show()
-
